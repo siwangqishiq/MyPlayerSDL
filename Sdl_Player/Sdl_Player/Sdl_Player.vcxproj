@@ -121,6 +121,8 @@
     <ClCompile Include="HelloWorld.hpp" />
     <ClCompile Include="IExecutor.h" />
     <ClCompile Include="Lesson3.hpp" />
+    <ClCompile Include="Lesson4_MainLoop.hpp" />
+    <ClCompile Include="Lesson5_Sprite.hpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

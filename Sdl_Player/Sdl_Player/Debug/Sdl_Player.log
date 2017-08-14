@@ -1,4 +1,6 @@
 ﻿  main.cpp
+  Lesson5_Sprite.hpp
+  Lesson4_MainLoop.hpp
   Lesson3.hpp
   IExecutor.h
   HelloWorld.hpp

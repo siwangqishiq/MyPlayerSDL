@@ -27,6 +27,12 @@
     <ClCompile Include="Lesson3.hpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Lesson4_MainLoop.hpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Lesson5_Sprite.hpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
