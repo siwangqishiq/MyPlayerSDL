@@ -1,3 +1,7 @@
-﻿  HelloWorld.hpp
-  Sdl_Player.vcxproj -> D:\dev\MyPlayerSDL\Sdl_Player\Debug\Sdl_Player.exe
-  Sdl_Player.vcxproj -> D:\dev\MyPlayerSDL\Sdl_Player\Debug\Sdl_Player.pdb (Partial PDB)
+﻿  main.cpp
+  Lesson3.hpp
+  IExecutor.h
+  HelloWorld.hpp
+  正在生成代码...
+  Sdl_Player.vcxproj -> D:\github\MyPlayerSDL\Sdl_Player\Debug\Sdl_Player.exe
+  Sdl_Player.vcxproj -> D:\github\MyPlayerSDL\Sdl_Player\Debug\Sdl_Player.pdb (Partial PDB)

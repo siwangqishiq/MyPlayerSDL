@@ -70,7 +70,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\dev\MyPlayerSDL\SDL2-2.0.5\include;$(IncludePath)</IncludePath>
+    <IncludePath>D:\github\MyPlayerSDL\SDL2_image-2.0.1\include;D:\github\MyPlayerSDL\SDL2-2.0.5\include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -79,8 +79,8 @@
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>D:\dev\MyPlayerSDL\SDL2-2.0.5\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\github\MyPlayerSDL\SDL2_image-2.0.1\lib\x86;D:\github\MyPlayerSDL\SDL2-2.0.5\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
@@ -120,9 +120,11 @@
   <ItemGroup>
     <ClCompile Include="HelloWorld.hpp" />
     <ClCompile Include="IExecutor.h" />
+    <ClCompile Include="Lesson3.hpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Lesson2.hpp" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
