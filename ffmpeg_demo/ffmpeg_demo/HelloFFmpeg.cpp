@@ -1,6 +1,4 @@
 #include "HelloFFmpeg.h"
-
-
 #include <stdio.h>
 
 extern "C" {
