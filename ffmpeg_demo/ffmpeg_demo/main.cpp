@@ -3,6 +3,7 @@
 #include "IExecute.h"
 #include "HelloFFmpeg.h"
 #include "SimplestDecoder.h"
+#include "VideoExtractor.h"
 
 int main(int argc , char *argv[]) {
 
@@ -11,7 +12,9 @@ int main(int argc , char *argv[]) {
 	//int ret = hello_ffmpeg->execute(argc , argv);
 	//delete hello_ffmpeg;
 
-	IExecute *exe = new SimplestDecoder();
+	//IExecute *exe = new SimplestDecoder();
+
+	IExecute *exe = new VideoExtractor();
 	exe->execute(argc, argv);
 	delete exe;
 

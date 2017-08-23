@@ -148,11 +148,13 @@
     <ClCompile Include="HelloFFmpeg.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="SimplestDecoder.cpp" />
+    <ClCompile Include="VideoExtractor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HelloFFmpeg.h" />
     <ClInclude Include="IExecute.h" />
     <ClInclude Include="SimplestDecoder.h" />
+    <ClInclude Include="VideoExtractor.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
