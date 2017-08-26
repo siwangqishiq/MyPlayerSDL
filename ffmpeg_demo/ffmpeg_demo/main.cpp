@@ -4,6 +4,7 @@
 #include "HelloFFmpeg.h"
 #include "SimplestDecoder.h"
 #include "VideoExtractor.h"
+#include "SimplePlayer.h"
 
 int main(int argc , char *argv[]) {
 
@@ -14,7 +15,9 @@ int main(int argc , char *argv[]) {
 
 	//IExecute *exe = new SimplestDecoder();
 
-	IExecute *exe = new VideoExtractor();
+	//IExecute *exe = new VideoExtractor();
+
+	IExecute *exe = new SimplePlayer();
 	exe->execute(argc, argv);
 	delete exe;
 

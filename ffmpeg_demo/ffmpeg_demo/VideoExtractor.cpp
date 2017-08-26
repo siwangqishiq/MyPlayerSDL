@@ -23,7 +23,7 @@ int VideoExtractor::execute(int agrc, char * agrv[]){
 	int y_size;
 	int ret, got_picture;
 	struct SwsContext *img_convert_ctx;
-	char filepath[] = "D:\\迅雷下载\\419042\\很久没冒泡的可爱春丽美眉和包皮洋屌啪啪戴着个眼镜很淫骚.mp4";
+	char filepath[] = "D:\\BaiduNetdiskDownload\\棋魂TV+剧场版\\棋魂\\01.rmvb";
 
 	int frame_cnt;
 

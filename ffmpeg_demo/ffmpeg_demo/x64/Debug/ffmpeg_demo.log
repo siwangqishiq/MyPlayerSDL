@@ -1,44 +1,5 @@
-﻿  VideoExtractor.cpp
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\videoextractor.cpp(52): warning C4018: “<”: 有符号/无符号不匹配
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\videoextractor.cpp(53): warning C4996: 'AVStream::codec': 被声明为已否决
-  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavformat\avformat.h(893): note: 参见“AVStream::codec”的声明
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\videoextractor.cpp(63): warning C4996: 'AVStream::codec': 被声明为已否决
-  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavformat\avformat.h(893): note: 参见“AVStream::codec”的声明
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\videoextractor.cpp(76): warning C4244: “初始化”: 从“int64_t”转换到“int”，可能丢失数据
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\videoextractor.cpp(31): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+﻿  SimplePlayer.cpp
+d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\simpleplayer.cpp(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\videoextractor.cpp(84): warning C4996: 'avpicture_get_size': 被声明为已否决
-  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavcodec\avcodec.h(5561): note: 参见“avpicture_get_size”的声明
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\videoextractor.cpp(88): warning C4996: 'avpicture_fill': 被声明为已否决
-  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavcodec\avcodec.h(5546): note: 参见“avpicture_fill”的声明
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\videoextractor.cpp(102): warning C4996: 'avcodec_decode_video2': 被声明为已否决
-  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavcodec\avcodec.h(4901): note: 参见“avcodec_decode_video2”的声明
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\videoextractor.cpp(119): warning C4996: 'av_free_packet': 被声明为已否决
-  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavcodec\avcodec.h(4558): note: 参见“av_free_packet”的声明
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\videoextractor.cpp(23): warning C4101: “y_size”: 未引用的局部变量
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\videoextractor.cpp(16): warning C4101: “i”: 未引用的局部变量
-  SimplestDecoder.cpp
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\simplestdecoder.cpp(42): warning C4018: “<”: 有符号/无符号不匹配
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\simplestdecoder.cpp(43): warning C4996: 'AVStream::codec': 被声明为已否决
-  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavformat\avformat.h(893): note: 参见“AVStream::codec”的声明
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\simplestdecoder.cpp(53): warning C4996: 'AVStream::codec': 被声明为已否决
-  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavformat\avformat.h(893): note: 参见“AVStream::codec”的声明
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\simplestdecoder.cpp(66): warning C4244: “初始化”: 从“int64_t”转换到“int”，可能丢失数据
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\simplestdecoder.cpp(74): warning C4996: 'avpicture_get_size': 被声明为已否决
-  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavcodec\avcodec.h(5561): note: 参见“avpicture_get_size”的声明
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\simplestdecoder.cpp(76): warning C4996: 'avpicture_fill': 被声明为已否决
-  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavcodec\avcodec.h(5546): note: 参见“avpicture_fill”的声明
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\simplestdecoder.cpp(90): warning C4996: 'avcodec_decode_video2': 被声明为已否决
-  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavcodec\avcodec.h(4901): note: 参见“avcodec_decode_video2”的声明
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\simplestdecoder.cpp(102): warning C4996: 'av_free_packet': 被声明为已否决
-  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavcodec\avcodec.h(4558): note: 参见“av_free_packet”的声明
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\simplestdecoder.cpp(20): warning C4101: “y_size”: 未引用的局部变量
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\simplestdecoder.cpp(13): warning C4101: “i”: 未引用的局部变量
-  main.cpp
-  HelloFFmpeg.cpp
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-  正在生成代码...
   ffmpeg_demo.vcxproj -> D:\dev\MyPlayerSDL\ffmpeg_demo\x64\Debug\ffmpeg_demo.exe
   ffmpeg_demo.vcxproj -> D:\dev\MyPlayerSDL\ffmpeg_demo\x64\Debug\ffmpeg_demo.pdb (Partial PDB)

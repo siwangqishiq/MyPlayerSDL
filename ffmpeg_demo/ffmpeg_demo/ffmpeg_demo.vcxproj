@@ -104,12 +104,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\dev\MyPlayerSDL\ffmpeg_demo\ffmpeg_demo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\dev\MyPlayerSDL\SDL2-2.0.5\include;D:\dev\MyPlayerSDL\ffmpeg_demo\ffmpeg_demo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
-      <AdditionalLibraryDirectories>D:\dev\MyPlayerSDL\ffmpeg_demo\ffmpeg_demo\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\dev\MyPlayerSDL\SDL2-2.0.5\lib\x64;D:\dev\MyPlayerSDL\ffmpeg_demo\ffmpeg_demo\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -147,12 +147,14 @@
   <ItemGroup>
     <ClCompile Include="HelloFFmpeg.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SimplePlayer.cpp" />
     <ClCompile Include="SimplestDecoder.cpp" />
     <ClCompile Include="VideoExtractor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HelloFFmpeg.h" />
     <ClInclude Include="IExecute.h" />
+    <ClInclude Include="SimplePlayer.h" />
     <ClInclude Include="SimplestDecoder.h" />
     <ClInclude Include="VideoExtractor.h" />
   </ItemGroup>
