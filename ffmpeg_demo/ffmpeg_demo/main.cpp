@@ -5,6 +5,7 @@
 #include "SimplestDecoder.h"
 #include "VideoExtractor.h"
 #include "SimplePlayer.h"
+#include "Player.h"
 
 int main(int argc , char *argv[]) {
 
@@ -17,7 +18,9 @@ int main(int argc , char *argv[]) {
 
 	//IExecute *exe = new VideoExtractor();
 
-	IExecute *exe = new SimplePlayer();
+	//IExecute *exe = new SimplePlayer();
+
+	IExecute *exe = new Player();
 	exe->execute(argc, argv);
 	delete exe;
 

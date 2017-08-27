@@ -147,6 +147,7 @@
   <ItemGroup>
     <ClCompile Include="HelloFFmpeg.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="SimplePlayer.cpp" />
     <ClCompile Include="SimplestDecoder.cpp" />
     <ClCompile Include="VideoExtractor.cpp" />
@@ -154,6 +155,7 @@
   <ItemGroup>
     <ClInclude Include="HelloFFmpeg.h" />
     <ClInclude Include="IExecute.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="SimplePlayer.h" />
     <ClInclude Include="SimplestDecoder.h" />
     <ClInclude Include="VideoExtractor.h" />

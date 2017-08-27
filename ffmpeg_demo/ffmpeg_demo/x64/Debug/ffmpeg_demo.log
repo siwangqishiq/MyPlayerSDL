@@ -1,5 +1,15 @@
-﻿  SimplePlayer.cpp
-d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\simpleplayer.cpp(67): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 参见“fopen”的声明
+﻿  Player.cpp
+d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\player.cpp(58): warning C4018: “<”: 有符号/无符号不匹配
+d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\player.cpp(59): warning C4996: 'AVStream::codec': 被声明为已否决
+  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavformat\avformat.h(893): note: 参见“AVStream::codec”的声明
+d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\player.cpp(69): warning C4996: 'AVStream::codec': 被声明为已否决
+  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavformat\avformat.h(893): note: 参见“AVStream::codec”的声明
+d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\player.cpp(102): warning C4996: 'avpicture_get_size': 被声明为已否决
+  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavcodec\avcodec.h(5561): note: 参见“avpicture_get_size”的声明
+d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\player.cpp(103): warning C4996: 'avpicture_fill': 被声明为已否决
+  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavcodec\avcodec.h(5546): note: 参见“avpicture_fill”的声明
+d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\player.cpp(135): warning C4996: 'avcodec_decode_video2': 被声明为已否决
+  d:\dev\myplayersdl\ffmpeg_demo\ffmpeg_demo\include\libavcodec\avcodec.h(4901): note: 参见“avcodec_decode_video2”的声明
   ffmpeg_demo.vcxproj -> D:\dev\MyPlayerSDL\ffmpeg_demo\x64\Debug\ffmpeg_demo.exe
   ffmpeg_demo.vcxproj -> D:\dev\MyPlayerSDL\ffmpeg_demo\x64\Debug\ffmpeg_demo.pdb (Partial PDB)
